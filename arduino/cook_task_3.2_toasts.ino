@@ -15,7 +15,7 @@
 //If the system has enough ingredients, it prints a number of sentences that 'simulate' that the system has cooked what you wanted, then the quantities are adjusted, as the system has wasted some ingredients,
 //If the system hasn't got enough ingredients, it prints "We can't cook this because we need:" and then it writes down the ingredients that are missing.
 //This is done with the use of 'ifs'.
-//Also, a simple instruction us printed: "To buy an ingredient, write its name (eggs/toasts/avocado/oil)".
+//Also, a simple instruction is printed: "To buy an ingredient, write its name (eggs/toasts/avocado/oil)".
 
 
 
