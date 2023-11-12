@@ -1,3 +1,24 @@
+//This program extends the cooking system 3 to include another recipe: a pizza. It also includes an inventory.
+//The first thing you see at the top of the program are the different ingredients (which are variables) and the quantities you have.
+//I have decided to set all the values to 0, and, as you can 'buy' ingredients by typing their names, you are free to 'buy' only the ones you need to make the recipe you want.
+//In the setup first we initiate the Serial Monitor.
+//Then, automatically, some welcome sentences are displayed, with a second of delay between each of these.
+//These sentences are some basic instructions to use the program.
+//In the loop, the code is continuously reading the input ( String input = Serial.readString(); )
+//Then we have the first 'if' of the program, its purpose is to only send the input to the function 'decide' if there is something written.
+//In the 'decide' there are a number of different 'ifs'.
+//The first three are to call different functions.
+//The following ones are to 'buy ingredients'. For example, if I type 'avocado' the system increments the value for 'avocado' by one, and also prints in the Serial Monitor '+1 Avocado'.
+//This happens with all the ingredients. 
+//If instead of typing the name of an ingredient, I type 'cook toasts with fried eggs and avocado' or 'cook pizza', then the program calls one function (cooktoasts) or another (cookpizza).
+//These two functions are almost the same, what changes are the ingredients and quantities.
+//These functions first compare the ingredients that the system has with the ones needed. 
+//If the system has enough ingredients, it prints a number of sentences that 'simulate' that the system has cooked what you wanted, then the quantities are adjusted, as the system has wasted some ingredients,
+//If the system hasn't got enough ingredients, it prints "We can't cook this because we need:" and then it writes down the ingredients that are missing.
+//This is done with the use of 'ifs'.
+//Finnaly, at the bottom of the program you can see the 'inventory' function. This dislpays the quantities and ingredients the system has. You can check the inventory by typing 'inventory'.
+
+
 int eggs = 0;
 int toasts = 0;
 bool oil = false;
