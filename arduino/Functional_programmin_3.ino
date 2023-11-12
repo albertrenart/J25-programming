@@ -1,3 +1,11 @@
+//This program shows my name (albert) in morse code in the builtin LED of the arduino.
+//Instead, of using a function for the dot and a function for the dash like in 'functional programming 2', here I have used the morseBlink function which is used to control the blinking of the LED based on the number of dots specified for each letter.
+//The dotDuration variable controls the duration of a single dot.
+//The loop is the same as in 'functional programming 2', and each of the functions representing letters are more or less the same, but using the morseBlink funciton.
+
+
+
+
 int dotDuration = 500;
 
 void setup() {
