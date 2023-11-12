@@ -1,9 +1,9 @@
 //This code is designed to simulate a simple 'cooking system'.
-//If there are suficient ingredients, and it is requested, the system can 'cook' a Spanish Omelette.
-//What you see at the top of the code are different variables which represent the ingredients and the quantities you have.
+//If there are sufficient ingredients, and it is requested, the system can 'cook' a Spanish Omelette.
+//What you see at the top of the code are different variables that represent the ingredients and the quantities you have.
 //In the setup we only initiate the Serial Monitor.
-//In the loop , the code is continuously reading the input ( String input = Serial.readString(); )
-//Then we have the first 'if' of the program, it purpose is to only send the input to the function 'decide' if there is something written (  if (input != "") {
+//In the loop, the code is continuously reading the input ( String input = Serial.readString(); )
+//Then we have the first 'if' of the program, its purpose is to only send the input to the function 'decide' if there is something written (  if (input != "") {
 // Serial.println("You have input: " + input);
 // input.trim();
 // decide(input); )
