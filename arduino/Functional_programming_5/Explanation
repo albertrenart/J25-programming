@@ -1,3 +1,3 @@
-This program prints my name (albert) in morse code, in the serial monitor.
-Each letter has its function. Inside each letter function we are using another two functions, one representing the dot, and another representing the dash.
+This program prints my name (Albert) in Morse code, in the serial monitor.
+Each letter has its function. Inside each letter function, we are using another two functions, one representing the dot, and another representing the dash.
 Also, at the end of each letter the program 'prints' a forward slash, to separate the letters from each other.
