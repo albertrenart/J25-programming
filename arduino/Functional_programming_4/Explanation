@@ -1,0 +1,4 @@
+What this program does is to blink my name in the arduino LED. We will use a different function for each letter. 
+Also, we will use the function morseBlink, instead of dotDuration.
+In the setup it determines where to send the code (to the LED).
+In the loop we only have the function for each letter and a delay because of the end of a word (Albert). 
