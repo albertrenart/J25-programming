@@ -1,5 +1,5 @@
 //This program first sets the output.
-//Then turns the LED on for one anf a half seconds, then off for 1 second.
+//Then turns the LED on for one and a half seconds, then off for 1 second.
 //Now it turns the LED on for one and a half seconds, then off for 1 second more.
 //After this it starts a loop where the LED is turned on for 0.125 seconds and then off for 0.125 seconds repeatedly. T
 
