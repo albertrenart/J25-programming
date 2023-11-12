@@ -1,6 +1,6 @@
-//This program displays my name (albert) in morse code in the builtin LED of the arduino.
+//This program displays my name (Albert) in Morse code in the built-in LED of the Arduino.
 //This code is based on two functions: morseDot and morseDash.
-//First this program sets the output, then it goes to the loop, were I have placed the functions in the correct order, which represents my name in morse code.
+//First this program sets the output, then it goes to the loop, where I have placed the functions in the correct order, which represents my name in Morse code.
 
 
 int dotDuration = 500;
