@@ -1,3 +1,10 @@
+//This program blinks my name (albert) in morse code in the arduino LED.
+//The program first sets the output.
+//In the loop we have only the functions represening each letter, and a final delay, because in morse code there has to be a separation between words.
+//Inside each funtion representing a letter, there is a combination of dots and dashes representing that letter in morse code.
+//To define what is a dot and what is a dash, there are two separate functions, which work with different delays dependig of what they represent.
+
+
 int dotDuration = 500;
 
 void setup() {
