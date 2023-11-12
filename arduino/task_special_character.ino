@@ -1,3 +1,6 @@
+//This program prints an image in the Serial Monitor using special characters.
+
+
 void setup() {
   Serial.begin(9600);
 }
