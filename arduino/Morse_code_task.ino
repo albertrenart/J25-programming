@@ -1,3 +1,8 @@
+//This program first sets the output. It is designed to flash my name in morse code in the builtin LED of the arduino. The Morse code for each letter is represented by a sequence of dots (short flashes) and dashes (long flashes).
+
+
+
+
 int dotDuration = 1000;
 
 void setup() {
