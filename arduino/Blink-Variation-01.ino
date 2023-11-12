@@ -1,6 +1,6 @@
 //This program first determines the output.
-//It turns on the LED for two secondsm and it turns it off for 1 second more.
-//After this, the LED will be blinking for ever (half a second on, half a second off)
+//It turns on the LED for two seconds and it turns it off for 1 second more.
+//After this, the LED will be blinking forever (half a second on, half a second off)
 
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.
