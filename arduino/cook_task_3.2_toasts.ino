@@ -1,3 +1,27 @@
+//This program simulates that it is preparing some toasts with fried eggs and avocado
+//The first thing you see at the top of the program are the different ingredients (which are variables) and the quantities you have.
+//I have decided to set all the values to 0, and, as you can 'buy' ingredients by typing their names, you are free to 'buy' only the ones you need to make the recipe you want (in this case there is only one possible).
+//In the setup first we initiate the Serial Monitor.
+//Then, automatically, a welcome sentence is displayed.
+//This sentence is a basic instruction to use the program.
+//In the loop, the code is continuously reading the input ( String input = Serial.readString(); )
+//Then we have the first 'if' of the program, its purpose is to only send the input to the function 'decide' if there is something written.
+//In the 'decide' function there are a number of different 'ifs'.
+//The first one is to call the 'cook' function if the input is 'cook'.
+//The following ones are to 'buy ingredients'. For example, if I type 'avocado' the system increments the value for 'avocado' by one, and also prints in the Serial Monitor '+1 Avocado'.
+//This happens with all the ingredients. 
+//If instead of typing the name of an ingredient, I type 'cook ', then the program calls the 'cook' function.
+//This function first compares the ingredients that the system has with the ones needed. 
+//If the system has enough ingredients, it prints a number of sentences that 'simulate' that the system has cooked what you wanted, then the quantities are adjusted, as the system has wasted some ingredients,
+//If the system hasn't got enough ingredients, it prints "We can't cook this because we need:" and then it writes down the ingredients that are missing.
+//This is done with the use of 'ifs'.
+//Also, a simple instruction us printed: "To buy an ingredient, write its name (eggs/toasts/avocado/oil)".
+
+
+
+
+
+
 int eggs = 0;
 int toasts = 0;
 bool oil = false;
