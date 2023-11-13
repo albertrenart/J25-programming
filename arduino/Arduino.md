@@ -1,9 +1,11 @@
-###Explorations on arduino IDE
+### Explorations on arduino IDE
 
 [download arduino IDE](https://www.arduino.cc/en/software)
 
+---
 
-#Explanation of each program
+# Explanation of each program
+
 
 [**Functional Programming_4**](https://github.com/albertrenart/J25-programming/tree/main/arduino/Functional_programming_4)
 
@@ -16,6 +18,7 @@ In the setup, it determines where to send the code (to the LED).
 In the loop, we only have the function for each letter and a delay because of the end of a word (Albert). 
 
 
+
 [**Functional Programming_5**](https://github.com/albertrenart/J25-programming/tree/main/arduino/Functional_programming_5)
 
 This program prints my name (Albert) in Morse code, in the serial monitor.
@@ -25,6 +28,7 @@ Each letter has its function. Inside each letter function, we are using another 
 Also, at the end of each letter the program 'prints' a forward slash, to separate the letters from each other.
 
 
+
 [**Blink-Variation-01**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Blink-Variation-01.ino)
 
 This program first determines the output.
@@ -32,6 +36,7 @@ This program first determines the output.
 It turns on the LED for two seconds and it turns it off for 1 second more.
 
 After this, the LED will be blinking forever (half a second on, half a second off).
+
 
 
 [**Blink_Variation_task**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Blink_Variation_task.ino)
@@ -44,6 +49,8 @@ Now it turns the LED on for one and a half seconds, then off for 1 second more.
 
 After this, it starts a loop where the LED is turned on for 0.125 seconds and then off for 0.125 seconds repeatedly. 
 
+
+
 [**Functional_programming_1**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Functional_programming_1_int.ino)
 
 This program displays my name (Albert) in Morse code in the built-in LED of the Arduino.
@@ -51,6 +58,8 @@ This program displays my name (Albert) in Morse code in the built-in LED of the 
 This code is based on two functions: morseDot and morseDash.
 
 First this program sets the output, then it goes to the loop, where I have placed the functions in the correct order, which represents my name in Morse code.
+
+
 
 [**Functional_programming_2**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Functional_programming_2.ino)
 
@@ -64,6 +73,8 @@ Inside each function representing a letter, there is a combination of dots and d
 
 To define what is a dot and what is a dash, there are two separate functions, which work with different delays depending on what they represent.
 
+
+
 [**Functional_programming_3**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Functional_programming_3.ino)
 
 This program shows my name (Albert) in Morse code in the built-in LED of the Arduino.
@@ -74,11 +85,15 @@ The dotDuration variable controls the duration of a single dot.
 
 The loop is the same as in 'functional programming 2', and each of the functions representing letters are more or less the same, but using the morseBlink function.
 
+
+
 [**Morse_code_task**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Morse_code_task.ino)
 
 This program first sets the output. It is designed to flash my name in Morse code in the built-in LED of the Arduino. 
 
 The Morse code for each letter is represented by a sequence of dots (short flashes) and dashes (long flashes).
+
+
 
 [**cook_2**](https://github.com/albertrenart/J25-programming/blob/main/arduino/cook_2.ino)
 
@@ -106,6 +121,8 @@ The decide function checks the input string. If it's "cook," it calls the cook f
 The cook function checks if there are enough ingredients to make a Spanish Omelette. 
 
 If so, it prints a message indicating that a Spanish Omelette can be made and updates the quantities of ingredients accordingly.
+
+
 
 [**cook_4**](https://github.com/albertrenart/J25-programming/blob/main/arduino/cook_4.ino)
 
@@ -150,6 +167,8 @@ This is done with the use of 'ifs'.
 
 Finnaly, at the bottom of the program you can see the 'inventory' function. This dislpays the quantities and ingredients the system has. You can check the inventory by typing 'inventory'.
 
+
+
 [**cook_task_3.2_toasts**](https://github.com/albertrenart/J25-programming/blob/main/arduino/cook_task_3.2_toasts.ino)
 
 This program simulates that it is preparing some toasts with fried eggs and avocado.
@@ -190,6 +209,8 @@ This is done with the use of 'ifs'.
 
 Also, a simple instruction is printed: "To buy an ingredient, write its name (eggs/toasts/avocado/oil)".
 
+
+
 [**cooking**](https://github.com/albertrenart/J25-programming/blob/main/arduino/cooking.ino)
 
 This program simulates that it is cooking.
@@ -205,6 +226,8 @@ Then we have the first 'if' of the program, its purpose is to only send the inpu
 The purpose of the 'decide' function is to call the 'cook' function only if the input is 'cook'.
 
 The function cook only prints a sentence: Serial.println("we are cooking");
+
+
 
 [**task_special_character**](https://github.com/albertrenart/J25-programming/blob/main/arduino/task_special_character.ino)
 
