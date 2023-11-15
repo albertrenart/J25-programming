@@ -83,9 +83,9 @@ a == b , compares if they have the same value
 '!='  : not eqaul
 
 ## Combo Burger (Boolean Operators)
-- &&: AND operator
-- ||: OR operator
-- !: NOT operator
+- '&&' : AND operator
+- '||' : OR operator
+- '!' : NOT operator
 
 
 ```c++
