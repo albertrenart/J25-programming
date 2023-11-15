@@ -28,7 +28,7 @@
 - **Curly Braces**: {}
 
 
-- **Types of Programming Languages:**
+## Types of Programming Languages:
   - Highly typed PL: Python, JavaScript, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#
   - Loosely typed PL: JavaScript, Perl, PHP, Ruby, Shell
 
