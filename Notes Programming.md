@@ -67,6 +67,7 @@ void loop() {
 --------------------------------------------------
 
 a = b ; 'a' gets value of 'b'
+
 a == b , compares if they have the same value
 
 --------------------------------------------------
@@ -114,6 +115,7 @@ If(TRdelivered && meanGrade >= 5 && allFinalTestPassed)
 ```
 
 Nested ifs (if dentro de if)  
+```C++
 If (patatas) {
 If (huevos){
 Tortilla ();
@@ -123,6 +125,8 @@ Freir ();
 Else {
 Pedir sushi ();
 }
+```
+
 
 ## Nested ifs (if inside if)  
 ```C++
@@ -141,7 +145,9 @@ Pedir sushi ();
 ## Comparations
 
 Option A) we have a Boolean variable (bool)
+
 If the variable value is true, then we go inside the if.
+
 If the variable is false, then we don’t go inside the if. If there is an else, we go inside the else.
 
 
