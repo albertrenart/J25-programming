@@ -47,6 +47,12 @@
 
 We cannot define a function inside the definition of another function.
 
+
+## SERIAL READER
+-	Setup
+Serial.begin (9600)
+
+
 ## Example of Setup and Loop Functions
 ```C++
 void setup() {
@@ -87,12 +93,6 @@ if(eggsInTheFridge && potatoesInTheKitchen) {
 }
 ```
 
-
-## SERIAL READER
--	Setup
-Serial.begin (9600)
-
-
 ```c++
 If ((eggsInTheFridge && potatoesInTheKitchen) || sausagesInTheKitchen) {
     cookSomeThing();
@@ -119,6 +119,19 @@ Freir ();
 Else {
 Pedir sushi ();
 }
+
+## Nested ifs (if inside if)  
+```C++
+If (patatas) {
+If (huevos){
+Tortilla ();
+}
+Freir ();
+}
+Else {
+Pedir sushi ();
+}
+```
 
 
 ## Comparations
