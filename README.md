@@ -1,9 +1,13 @@
 # J25-programming
 
 
-### [Repository of the teacher](https://github.com/d-prieto/J25-Programming)
+- [Repository of the teacher](https://github.com/d-prieto/J25-Programming)
 
-[**EXPLANATION OF THE PROGRAMS**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
+- [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
+
+- [Programming Notes}(https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming)
+
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
