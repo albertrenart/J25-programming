@@ -8,8 +8,6 @@
 - [Programming Notes](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming)
 
 
-
-
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
 
