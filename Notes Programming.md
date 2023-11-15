@@ -72,10 +72,14 @@ a == b , compares if they have the same value
 --------------------------------------------------
 
 ## Comparators
-- > : bigger than
-- < : less than
-- >= : bigger or equal than
+> : bigger than
+
+< : less than
+  
+>= : bigger or equal than
+
 <= : less or equal than
+
 !=  : not eqaul
 
 ## Combo Burger (Boolean Operators)
