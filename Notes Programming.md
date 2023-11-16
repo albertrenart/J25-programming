@@ -27,6 +27,7 @@
 - **Parenthesis**: ()
 - **Curly Braces**: {}
 
+Some of these items are retrieved from [SpaikyJordi](https://github.com/Spaikyjordi/J25-programming-jordi)
 
 ## Types of Programming Languages:
   - Highly typed PL: Python, JavaScript, Visual Basic, Delphi, Perl, PHP, ECMAScript, Ruby, C#
