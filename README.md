@@ -5,7 +5,7 @@
 
 - [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
 
-- [Programming Notes](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming)
+- [Programming Notes]([https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming.md))
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
