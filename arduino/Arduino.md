@@ -236,12 +236,45 @@ This program prints an image in the Serial Monitor using special characters.
 
 [**Problem_solver_1**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_1.ino)
 
+This code sets up serial monitor, then uses two 'for' loops in the setup function to solve drawing problems for numbers from 1 to 30.
+
+After this, it does the same but in reverse.
+
+As it does it only one time, all this is coded in the setup function, because it is done only one time.
+
+To state somewhere that the problems are solved, the program prints it in the serial monitor.
+
+
 [**Problem_solver_2**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_2.ino)
+
+This code sets up serial monitor, then uses a 'for' loop in the setup function to solve drawing problems for numbers from 1 to 30, but skipping problem 17.
+
+To skipp 17 we use an 'if' function.
+
+As it does it only one time, all this is coded in the setup function, because it is done only one time.
+
+To state somewhere that the problems are solved, the program prints it in the serial monitor.
 
 [**Problem_solver_3**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_3.ino)
 
-[**Problem_solver_4**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_4.ino)
+This code sets up serial monitor, then uses a 'for' loop in the setup function to solve problems from 1 to 100, but only the ones that are multipliers of 7.
+
+The program uses a 'for' loop and an 'if':
+
+```C++
+    for (int numeroProblema = 1; numeroProblema <= 100; ++numeroProblema) {
+        if (numeroProblema % 7 == 0) {
+```
+
+As it does it only one time, all this is coded in the setup function, because it is done only one time.
+
+To state somewhere that the problems are solved, the program prints it in the serial monitor.
 
 
+The code below only solves problems ended in 6 or 3. The mechanism is practically the same:
 
+```C++
+ for (int numeroProblema = 1; numeroProblema <= 100; ++numeroProblema) {
+        if (numeroProblema % 10 == 3 || numeroProblema % 10 == 6) {
+```
 
