@@ -1,16 +1,21 @@
-//Todos menos el 17 y el 23
+// solves only the ones that are multipliers of 7 
 void setup() {
   Serial.begin(9600);
-  for (int numeroProblema = 1; numeroProblema <= 30; numeroProblema++) {
-    if (numeroProblema != 17 && numeroProblema != 23) {
-      resolverProblemaDibujo(numeroProblema);
+    for (int numeroProblema = 1; numeroProblema <= 100; ++numeroProblema) {
+        if (numeroProblema % 7 == 0) {
+            resolverProblemaDibujo(numeroProblema);
+        }
     }
-  }
 }
   void loop() {
   }
 
-  void resolverProblemaDibujo(int n) {  //data type, number
+  void resolverProblemaDibujo(int numeroProblema) { 
     Serial.print("Resolviendo problema");
-    Serial.println(n);
+    Serial.println(numeroProblema);
   }
+
+
+
+
+    
