@@ -234,6 +234,14 @@ The function cook only prints a sentence: Serial.println("we are cooking");
 This program prints an image in the Serial Monitor using special characters.
 
 
+[**Problem_solver_1**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_1.ino)
+
+[**Problem_solver_2**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_2.ino)
+
+[**Problem_solver_3**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_3.ino)
+
+[**Problem_solver_4**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Problem_solver_4.ino)
+
 
 
 
