@@ -10,7 +10,7 @@ void setup() {
   void loop() {
   }
 
-  void resolverProblemaDibujo(int n) {  //data type, number
+  void resolverProblemaDibujo(int n) {  
     Serial.print("Resolviendo problema");
     Serial.println(n);
   }
