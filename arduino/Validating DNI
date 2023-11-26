@@ -1,2 +1,33 @@
 The DNI consists of eight digits and a letter. The numbers are what really identifies you, and the letter is a validation character. The letter is used to validate if the number you have
-subbmited
+submitted is correct. The way it works is the following: 
+
+You take the eight digits of the DNI number, then you divide the whole number by 23, and depending of the reminder you get, the DNI gets a different letter.
+This is the list of letters related to the remainders:
+
+- Remainder 0: T
+- Remainder 1: R
+- Remainder 2: W
+- Remainder 3: A
+- Remainder 4: G
+- Remainder 5: M
+- Remainder 6: Y
+- Remainder 7: F
+- Remainder 8: P
+- Remainder 9: D
+- Remainder 10: X
+- Remainder 11: B
+- Remainder 12: N
+- Remainder 13: J
+- Remainder 14: Z
+- Remainder 15: S
+- Remainder 16: Q
+- Remainder 17: V
+- Remainder 18: H
+- Remainder 19: L
+- Remainder 20: C
+- Remainder 21: K
+- Remainder 22: E
+
+
+Knowing this, to create a new DNI you have to create a number of eight digits, divide it by 23, and add a letter at the end depending of the reminder you get. I haven't find 
+information about which numbers are used and which not, so to create a DNI not currently in use I don't know the method.
