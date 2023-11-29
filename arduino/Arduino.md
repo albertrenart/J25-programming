@@ -278,3 +278,6 @@ The code below only solves problems ended in 6 or 3. The mechanism is practicall
         if (numeroProblema % 10 == 3 || numeroProblema % 10 == 6) {
 ```
 
+[**Arrays_1](https://github.com/albertrenart/J25-programming/blob/main/arduino/arrays_1.ino)
+
+In this code we have to swap the first two letters from the world 'webi waboo' and we also have to swap the 'i' with an 'a'. At the end we have to substitute the second 'b' with a 'v'.
