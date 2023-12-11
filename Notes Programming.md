@@ -194,3 +194,14 @@ Switch (character) {
 }
 ```
 
+
+MUSIC:
+
+```C++
+Tone (pin, frecuencia, duracion)
+```
+
+pin -> 1,2,3,4...
+frecuencia -> Hz
+duracion -> ms
+
