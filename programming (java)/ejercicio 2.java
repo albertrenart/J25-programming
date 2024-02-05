@@ -4,6 +4,6 @@ public class Ejercicio 2 {
       int number2 = 5;
       int sum, difference, product, quotient, remainder;
       sum = (31 * number1) + (17 * number2);
-      System.out.println ("The sum of 31 times " + number1 + " and 17 times " + number 2 + " is " + sum)
+      System.out.println ("Sum of 31 times " + number1 + " and 17 times " + number 2 + " : " + sum)
   }
 }
