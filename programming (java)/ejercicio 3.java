@@ -1,4 +1,4 @@
-public class ArithmeticTest {
+public class Ejercicio 3 {
    public static void main(String[] args) {
       int number1 = 98;
       int number2 = 5;
