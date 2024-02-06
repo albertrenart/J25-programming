@@ -1,4 +1,4 @@
-##Exercises 2
+## Exercises 2
 
 **Define the function startWithQuixote that if you send an String is going to return an string that is the same but it will start with "En un lugar de la Mancha… ".**
 
