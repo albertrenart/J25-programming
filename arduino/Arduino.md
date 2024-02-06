@@ -285,3 +285,7 @@ In this code we have to swap the first two letters from the world 'webi waboo' a
 [**Arduino song**](https://github.com/albertrenart/J25-programming/blob/main/arduino/song.ino)
 
 The song I used to make the wrap up project.
+
+[**Defining Functions**](https://github.com/albertrenart/J25-programming/blob/main/arduino/Defining%20functions.md)
+
+This are excercices to practice how to define a funtion.
