@@ -1,3 +1,5 @@
+//MOST PART IS FROM JULIA, because we had the same song and I had samall problems, my version isn't this one.
+
 
 #define DO2 1046.5
 #define DO 523.25
