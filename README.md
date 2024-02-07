@@ -6,6 +6,8 @@
 
 - [Programming Notes](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming.md)
 
+- [Programming Notes (2 term)](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming%202nd%20term.md)
+
 - [Final Project](https://github.com/albertrenart/J25-programming/tree/main/arduino/wrap_up_arduino2)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
