@@ -1,7 +1,7 @@
 # 2 TERM NOTES 📝📝
 
 
-## Vocabulary
+## Vocabulary📚📚
 - **Pseudocode:** "A notation resembling a simplified programming language, used in program design."
 - **Parameter:** "A special kind of variable used in a subroutine to refer to one of the pieces of data provided as input to the subroutine."
 - **Array:** "A data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key."
