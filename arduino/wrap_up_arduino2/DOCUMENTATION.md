@@ -38,9 +38,11 @@ The decide function should have been more simple, but as I will explain later I 
   The problem here was that the substring was not working, and it was sending 'morse' also in the string that was going to convert. The problem was that I was sending the command without        subtracting the first word (morse).
 
   Before (It was sending 'command'):
+  
   ![image](https://github.com/albertrenart/J25-programming/assets/144990839/2a95d84d-6577-41ab-b82a-e7e5c31b4c13)
 
   After (Now it is sending sendToMorse, which it is now trimmed):
+  
   ![image](https://github.com/albertrenart/J25-programming/assets/144990839/e1daf39e-d247-4286-ae18-47c2b80c4b35)
 
 
