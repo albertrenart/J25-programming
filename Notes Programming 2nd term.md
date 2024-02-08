@@ -332,6 +332,7 @@ void myFunction() {
 - 'void' means that the function does not have a return value. Instead of 'void', you can put there the type of variable you want the function to return.
 - 'myFunction' is the name of the function. Using camelCase, you can put the name you want, usually referring to what the function does.
 - '()' inside the parenthesis, the parameters you pass to the function
+- 
 
 *Example:*
 
@@ -341,6 +342,14 @@ void myFunction() {
 Here we see that this function does not return anything, the function is called 'decide', and the code passes a String named 'command' to the function.
 
 If You want more examples, [check this](https://github.com/albertrenart/J25-programming/blob/main/arduino/Defining%20functions.md)
+
+Types of variables or return types used this year:
+
+*void* - does not return anything
+*bool* - returns true or false
+*int* - returns integer numbers
+*double* - returns decimal numbers
+*string* - returns a string
 
 
 
