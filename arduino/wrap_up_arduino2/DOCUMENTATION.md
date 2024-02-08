@@ -6,7 +6,7 @@ The goal of this project is to make a program that represents all the progress w
 other programs we've made and some new ones. 
 
 
-###
+### What does it do?
 
 - When you write something through serial is going to reply to the same command just to be sure that the command has been sent properly. 
 - Write a line in Morse code if you write "morse" for the command and the line after will be sent as morse code. 
@@ -14,11 +14,7 @@ other programs we've made and some new ones.
 - Play (or stop) a song
 
 
-**How is it composed**
-
-![image](https://github.com/albertrenart/J25-programming/assets/144990839/780083fb-6f4d-49ba-9cf5-112fdb4aab36)
-
-
+### How is it composed?
 
 This project has a main file (wrap_up_arduino2), which only has a setup, a loop, and a 'decide' function. 
 
@@ -29,16 +25,10 @@ Also, there are three files more (song.h/morse.h/cook.h).
 
 These are specific to each function of the code.
 
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/780083fb-6f4d-49ba-9cf5-112fdb4aab36)
 
 
-
-
-
-
-
-
-
-**Problems faced**
+### Problems faced
 - *Problem with sending some commands to the functions*
    This took me a while to solve. What was happening was that I was sending some commands through the serial monitor, but the program was not answering.
     At the end, the problem was that I was using different named variables to refer to the same command. In some places I had written 'input' and in others 'command'.
@@ -62,15 +52,25 @@ These are specific to each function of the code.
 
 
 - *Substring function was not working*
-  The problem here was that the substring was not working, and it was sending 'morse' also in the string that was going to convert. The problem was that I was sending the command without        subtracting the first word (morse).
+  The problem here was that the substring was not working, and it was sending 'morse' also in the string that was going to convert.
+  The problem was that I was sending the command without subtracting the first word (morse).
 
   Before (It was sending 'command'):
   
   ![image](https://github.com/albertrenart/J25-programming/assets/144990839/2a95d84d-6577-41ab-b82a-e7e5c31b4c13)
 
-  After (Now it is sending sendToMorse, which it is now trimmed):
+  After (Now it is sending sendToMorse, which is now trimmed):
   
   ![image](https://github.com/albertrenart/J25-programming/assets/144990839/e1daf39e-d247-4286-ae18-47c2b80c4b35)
 
+
+- *Problems with integration of the original cooking system*
+  I don't know why, but some of my favorite aspects of the cooking system program I did some months ago, which has been used in this wrap-up project, have not worked properly. For
+  this reason, I took them away. Although I like a lot how the original cooking system ended, I'm also proud of the integration of the smaller version in my wrap-up project.
+
+
+  ### Conclusion
+
+In conclusion, I can only say that I am very happy with the final design, but if I had more time, I would surely try to implement the whole cooking system to this project.
 
 
