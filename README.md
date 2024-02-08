@@ -10,9 +10,7 @@
 
 - [Programming Notes (2 term)](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming%202nd%20term.md)
 
-- [Final Project](https://github.com/albertrenart/J25-programming/tree/main/arduino/wrap_up_arduino2)
-
-- [Final Project Documentation](https://github.com/albertrenart/J25-programming/blob/main/arduino/wrap_up_arduino2/DOCUMENTATION.md)
+- [Final Project (and documentation)](https://github.com/albertrenart/J25-programming/tree/main/arduino/wrap_up_arduino2)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
