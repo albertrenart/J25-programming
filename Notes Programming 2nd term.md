@@ -329,16 +329,19 @@ void myFunction() {
 }
 ```
 
-'void' means that the function does not have a return value. Instead of 'void', you can put there the type of variable you want the function to return.
-'myFunction' is the name of the function. Using camelCase, you can put the name you want, usually referring to what the function does.
-'()' inside the parenthesis, the parameters you pass to the function
+- 'void' means that the function does not have a return value. Instead of 'void', you can put there the type of variable you want the function to return.
+- 'myFunction' is the name of the function. Using camelCase, you can put the name you want, usually referring to what the function does.
+- '()' inside the parenthesis, the parameters you pass to the function
 
 *Example:*
 
 ![image](https://github.com/albertrenart/J25-programming/assets/144990839/a4dc6891-f74d-40cf-9c62-cc8d9c2a32e3)
 
+
 Here we see that this function does not return anything, the function is called 'decide', and the code passes a String named 'command' to the function.
 
+If You want more examples, [check this](https://github.com/albertrenart/J25-programming/blob/main/arduino/Defining%20functions.md)
 
-![image](https://github.com/albertrenart/J25-programming/assets/144990839/2db97810-9ceb-42e3-bbda-3d7f4b00214a)
+
+
 
