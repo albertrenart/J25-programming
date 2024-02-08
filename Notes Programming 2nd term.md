@@ -60,7 +60,7 @@ For("definition of variable";"condition of iteration";"step every time code is e
 
 ## Notation🖊️🖊️
 
-**CamelCase:**
+**camelCase:**
 
 Used for naming variables, functions
 
@@ -283,12 +283,62 @@ char *myStrings[] = {"This is string 1", "This is string 2", "This is string 3",
 
 To make a sound if the arduino is connected to a speaker.
 
-(It is not possible to generate tones lower than 31Hz)
+It is a function, it does not return anything.
+
+
+**Syntax:**
+
+```c++
+tone(pin, frequency)
+```
+or
+
+```c++
+tone(pin, frequency, duration)
+```
+
+Pin: the Arduino pin on which to generate the tone.
+Frequency: the frequency of the tone in hertz (It is not possible to generate tones lower than 31Hz).
+Duration: the duration of the tone in milliseconds (optional).
+
+*Important*
+
+If you want to play different pitches on multiple pins, you need to call 'noTone()' on one pin before calling 'tone()' on the next pin.
+
+-------------------------------------------------------------------------------------------------------
+
+## Definition of a function 📈📈
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/0a6e082d-4db0-4c22-a353-7e4db5c3107d)
+
+"A sequence of program instructions that performs a specific task, packaged as a unit."
+
+Basically:
+
+- A function is a block of code that only runs when it is called.
+
+- You can pass data, known as parameters, into a function.
+
+- Functions are used to perform certain actions, and they are important for reusing code: Define the code once, and use it many times.
 
 
 
+```c++
+void myFunction() {
+  // code to be executed
+}
+```
 
-FALTA: ARRAYS; TONE; SCOPE; DEFINING FUNCTIONS; 
+'void' means that the function does not have a return value. Instead of 'void', you can put there the type of variable you want the function to return.
+'myFunction' is the name of the function. Using camelCase, you can put the name you want, usually referring to what the function does.
+'()' inside the parenthesis, the parameters you pass to the function
 
-DOCUMENTACION PROYECTO
+*Example:*
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/a4dc6891-f74d-40cf-9c62-cc8d9c2a32e3)
+
+Here we see that this function does not return anything, the function is called 'decide', and the code passes a String named 'command' to the function.
+
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/2db97810-9ceb-42e3-bbda-3d7f4b00214a)
 
