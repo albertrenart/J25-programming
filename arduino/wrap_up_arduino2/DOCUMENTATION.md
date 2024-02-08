@@ -1,9 +1,27 @@
 ## DOCUMENTATION WRAP UP PROJECT
 
 **How is it composed**
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/780083fb-6f4d-49ba-9cf5-112fdb4aab36)
+
+
+
 This project has a main file (wrap_up_arduino2), which only has a setup, a loop, and a 'decide' function. 
 
 The decide function should have been more simple, but as I will explain later I had to add some more lines.
+
+
+Also, there are three files more (song.h/morse.h/cook.h).
+
+These are specific to each function of the code.
+
+
+**Functions**
+
+- When you write something through serial is going to reply to the same command just to be sure that the command has been sent properly. 
+- Write a line in Morse code if you write "morse" for the command and the line after will be sent as morse code. 
+- If the command is correct send a cooking recipe for the dish of your choice. 
+- Play (or stop) a song
 
 
 
