@@ -12,6 +12,8 @@
 
 - [Final Project (and documentation)](https://github.com/albertrenart/J25-programming/tree/main/arduino/wrap_up_arduino2)
 
+- [Excercises(1 & 2 term](https://github.com/albertrenart/J25-programming/tree/main/arduino)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
 
