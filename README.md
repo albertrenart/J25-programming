@@ -2,7 +2,7 @@
 
 ![barça](https://img.asmedia.epimg.net/resizer/hk5kMLSEX9FjY7tA9Ay0zLv0dQk=/736x414/filters:focal(3170x1414:3180x1424)/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/K3SDD766CB53YVB27UHGMNISO4.JPG)
 
-**Arduino**
+**Important files related to Arduino**
 
 - [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
 
@@ -11,6 +11,8 @@
 - [Programming Notes (2 term)](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming%202nd%20term.md)
 
 - [Final Project](https://github.com/albertrenart/J25-programming/tree/main/arduino/wrap_up_arduino2)
+
+- [Final Project Documentation](https://github.com/albertrenart/J25-programming/blob/main/arduino/wrap_up_arduino2/DOCUMENTATION.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
