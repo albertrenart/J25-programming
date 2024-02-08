@@ -1,9 +1,17 @@
 ## DOCUMENTATION WRAP UP PROJECT
 
-# What is it about?
+### What is it about?
 
 The goal of this project is to make a program that represents all the progress we've made during this term or even year. This program is a combination of
-other programms we've made and some new ones. 
+other programs we've made and some new ones. 
+
+
+###
+
+- When you write something through serial is going to reply to the same command just to be sure that the command has been sent properly. 
+- Write a line in Morse code if you write "morse" for the command and the line after will be sent as morse code. 
+- If the command is correct send a cooking recipe for the dish of your choice. 
+- Play (or stop) a song
 
 
 **How is it composed**
@@ -22,12 +30,7 @@ Also, there are three files more (song.h/morse.h/cook.h).
 These are specific to each function of the code.
 
 
-**Functions**
 
-- When you write something through serial is going to reply to the same command just to be sure that the command has been sent properly. 
-- Write a line in Morse code if you write "morse" for the command and the line after will be sent as morse code. 
-- If the command is correct send a cooking recipe for the dish of your choice. 
-- Play (or stop) a song
 
 
 
