@@ -6,8 +6,10 @@
 - **Parameter:** "A special kind of variable used in a subroutine to refer to one of the pieces of data provided as input to the subroutine."
 - **Array:** "A data structure consisting of a collection of elements (values or variables), of same memory size, each identified by at least one array index or key."
 - **Pseudorandom:** "A number which appears to be statistically random, despite having been produced by a completely deterministic and repeatable process."
-- **Iteration:** "When talking about code, a similar but slighly changed one."
+- **Iteration:** "When talking about code, a similar but slightly changed one."
 - **Bool:** A type of variable which is a decimal number.
+- **CLI:** Command line interface.
+- **Flag:** In another part of the code, to change its behavior.
 
 -----------------------------------------------------------------------------------------
 
@@ -20,7 +22,7 @@ These are necessary when writing code involving the same process many times.
 - While
 - For
 
-- WHILE:
+- *WHILE:*
 
 ```C++
 do while (fuel > 0){    // while the condition is true, 
@@ -37,7 +39,7 @@ do while (true) {      // As this is always true,
 ```
 
 
-- FOR:
+- *FOR:*
 
   EXAMPLE:
 
@@ -50,10 +52,9 @@ for(int s = 0; s<15600; s++)
 MEANING OF THE CODE:
 
   ```C++
-For("to set the variable";"condition(if true, executed)";"update every time is executed the code")
-{code}
+For("definition of variable";"condition of iteration";"step every time code is executed")
+{code to repeat}
 ```
-
 
 ---------------------------------------------------------------------------------------------------
 
@@ -108,8 +109,186 @@ MIN_VALUE, NUMBER_E
 ```
 
 
+----------------------------------------------------------------------------------------------------
 
-FALTA: STRINGS; ARRAYS; TONE; SCOPE; DEFINING FUNCTIONS; 
+## Arrays📦📦
+
+
+![Arrays-in-C](https://github.com/albertrenart/J25-programming/assets/144990839/20f8bb44-476f-48d5-9661-913a60db40bf)
+
+
+"An array is a collection of variables that are accessed with an index number."
+
+Some aspects:
+-	Its acces is fast
+-	Relative small memory
+
+*All these are valid declarations:*
+
+
+```c++
+  int myInts[6];           // Declare an array of a given length without initializing the values:
+```
+```c++
+  int myPins[] = {2, 4, 8, 3, 6, 4};          // Declare an array without explicitely choosing a size (the compiler
+                                              // counts the elements and creates an array of the appropriate size):
+```
+```c++
+  int mySensVals[5] = {2, 4, -8, 3, 2};          // Declare an array of a given length and initialize its values:
+```
+```c++
+  char message[6] = "hello";          // When declaring an array of type char, you'll need to make it longer
+                                      // by one element to hold the required the null termination character:
+```
+
+**Accessing an array**
+
+Arrays are zero-indexed, this means that the first element of the array is at index 0, therefore an array with ten elements, index nine is the last element
+
+```c++
+int myArray[10]={a, b, c, d, e, f, g, h, i, j};
+ Serial.println(myArray[9])     //   prints 'j'
+```
+An element of an array will always have an index between 0 and n-1, (n = lenght of array)
+
+
+**To assign a value to an array:**
+
+```c++
+mySensVals[0] = 10;
+```
+
+**To retrieve a value from an array:**
+
+```c++
+x = mySensVals[4];
+```
+
+**Arrays in FOR loops**
+
+Arrays are sometimes used inside for loops. The variable of the array (often 'i') is used as the index. 
+
+Example:
+
+```c++
+for (int i = 0; i < 5; i = i + 1) {
+  Serial.println(completeExcercise[i]);
+}
+```
+**Arrays with 'int'**
+
+```C++
+int[] grades=(4, 8, 9, 2, 7, 3}
+int sum = 0;
+sum = sum + grades [0];
+sum = sum + grades [1];
+sum = sum + grades [2];
+sum = sum + grades [3];
+sum = sum + grades [4];
+sum = sum + grades [5] ;
+int average = sum/6;
+Serial.println(average);
+```
+
+If you have a large amount of grades, for example, you can use a FOR loop:
+
+```C++
+int[] grades = {4,2,6,8,3,9}
+int sum = 0;
+for(int n = 0, n <= 5, n++){ // 
+sum = sum + grades [n];
+}
+int average = sum / 6
+```
+
+**How to interchange the value of some indexes:**
+
+```c++
+void swapFirstletters (string input){
+String temporal = input [1];
+input [1] = input [0];
+input [0] = temporal;
+}
+```
+
+----------------------------------------------------------------------------------------------------
+
+## Strings 🧵🧵
+
+![String_example](https://github.com/albertrenart/J25-programming/assets/144990839/d1953043-71f4-4a68-b8b2-be3cd6b79008)
+
+
+"A string is traditionally a sequence of characters, either as a literal constant or as some kind of variable."
+
+(Actually, a string is an array of characters)
+
+
+**All these are valid declarations:**
+```c++
+char Str1[15];
+```
+```c++
+char Str2[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o'};
+```
+```c++
+char Str3[8] = {'a', 'r', 'd', 'u', 'i', 'n', 'o', '\0'};
+```
+```c++
+char Str4[] = "arduino";
+```
+```c++
+char Str5[8] = "arduino";
+```
+```c++
+char Str6[15] = "arduino";
+```
+
+- Declare an array of chars without initializing it as in Str1
+
+- Declare an array of chars (with one extra char) and the compiler will add the required null character, as in Str2
+
+- Explicitly add the null character, Str3
+
+- Initialize with a string constant in quotation marks; the compiler will size the array to fit the string constant and a terminating null character, Str4
+
+- Initialize the array with an explicit size and string constant, Str5
+
+- Initialize the array, leaving extra space for a larger string, Str6
+
+*Single quotes or double quotes?*
+
+Strings are always defined inside double quotes ("Abc") and characters are always defined inside single quotes('A').
+
+
+*How to know the string length*
+
+The length of a string can be obtained using the length() or size() member functions.
+
+```c++
+int length = message.length(); // Length is 13
+```
+
+**Arrays of strings**
+Often convenient, when working with large amounts of text.
+
+```c++
+char *myStrings[] = {"This is string 1", "This is string 2", "This is string 3",
+                     "This is string 4", "This is string 5", "This is string 6"
+                    };
+```
+
+-----------------------------------------------------------------------------------------------------
+
+## Tone🎵🎶
+
+To make a sound if the arduino is connected to a speaker.
+
+(It is not possible to generate tones lower than 31Hz)
+
+
+
+
+FALTA: ARRAYS; TONE; SCOPE; DEFINING FUNCTIONS; 
 
 DOCUMENTACION PROYECTO
 
