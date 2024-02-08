@@ -1,5 +1,11 @@
 ## DOCUMENTATION WRAP UP PROJECT
 
+# What is it about?
+
+The goal of this project is to make a program that represents all the progress we've made during this term or even year. This program is a combination of
+other programms we've made and some new ones. 
+
+
 **How is it composed**
 
 ![image](https://github.com/albertrenart/J25-programming/assets/144990839/780083fb-6f4d-49ba-9cf5-112fdb4aab36)
