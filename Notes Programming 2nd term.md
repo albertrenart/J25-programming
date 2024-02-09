@@ -22,6 +22,8 @@ These are necessary when writing code involving the same process many times.
 - While
 - For
 
+  
+
 - *WHILE:*
 
 ```C++
@@ -40,8 +42,6 @@ do while (true) {      // As this is always true,
 
 
 - *FOR:*
-
-  EXAMPLE:
 
 ```c++
 for(int s = 0; s<15600; s++) 
