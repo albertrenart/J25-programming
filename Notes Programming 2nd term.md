@@ -22,7 +22,7 @@ These are necessary when writing code involving the same process many times.
 - While
 - For
 
-  
+  ------------------------------
 
 - *WHILE:*
 
