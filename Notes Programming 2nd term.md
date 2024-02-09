@@ -24,7 +24,7 @@ These are necessary when writing code involving the same process many times.
 
   ------------------------------
 
-- *WHILE:*
+*WHILE:*
 
 ```C++
 do while (fuel > 0){    // while the condition is true, 
@@ -41,7 +41,7 @@ do while (true) {      // As this is always true,
 ```
 
 
-- *FOR:*
+*FOR:*
 
 ```c++
 for(int s = 0; s<15600; s++) 
