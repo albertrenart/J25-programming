@@ -2,6 +2,7 @@
 
 
 **Qué es abstracción (alto nivel, bajo nivel, con ejemplos)**
+
 La abstraccion es cuando haces que algo sea mas simple, cuando ocultas algunos detalles irrelevantes, y te centras en lo importantes.
 La abstracción hace que se pueda escrivir codigo de manera mas sencilla y hace que sea más fácil la comprension.
 
@@ -30,6 +31,7 @@ APIs del sistema operativo. Estas son interfaces de programación de aplicacione
 -------------------------------------------------------------------------------------
 
 **Qué es object oriented programming**
+
 La programación orientada a objetos (Object Oriented Programming) es una manera de programar que organiza el código en torno a datos u objetos, en lugar de funciones y lógica. Un objeto se puede decir que es como un campo de datos que tiene atributos y comportamiento únicos. El proyecto final que hemos hecho, que tenia diferentes archivos es más o menos esto.
 
 "La programación orientada a objetos se centra en los objetos que los desarrolladores quieren manipular en lugar de enfocarse en la lógica necesaria para manipularlos."
@@ -40,6 +42,7 @@ Esta manera de programas tambien es muy adecuado para el desarrollo colaborativo
 -------------------------------------------------------------------------------------
 
 **Qué es interfaz, incluyendo GUI y CLI**
+
 Una interfaz es por donde se comunica un usuario con un ordenador.
 
 *Dos principales tipos:*
