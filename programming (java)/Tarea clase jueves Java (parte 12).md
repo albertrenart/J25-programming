@@ -1,3 +1,6 @@
+##Tarea clase jueves (parte 12)
+
+###1
 
 ```java
 public class ThreeFiveSevenSum{  
