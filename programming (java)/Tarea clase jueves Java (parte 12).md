@@ -4,14 +4,14 @@
 
 
 ```java
-public class ThreeFiveSevenSum{  
+public class Main{  
    public static void main(String[] args) {
      int sum = 0;
      for (int i = 1; i < 1001; i ++) {
        if(i % 3 == 0 || i % 5 == 0 || i % 7 == 0) {
          if(i % 15 != 0 && i % 21 != 0 && i % 35 != 0 && i % 105 != 0) {
        
-       int sum = sum + i;
+        sum = sum + i;
          }
        }
      }
@@ -28,17 +28,17 @@ public class ThreeFiveSevenSum{
 
 
 ```java
-public class PrintLeapYears{  
+public class Main{  
    public static void main(String[] args) {
       int leapYearsBetween = 0;
       int totalLeapYears = 0;
-   System.out.println("Leap years:")
-         for (int i = 1000; i < 2011; i + 4) {
+   System.out.println("Leap years:");
+         for (int i = 1000; i < 2011; i = i + 4) {
                System.out.println(i);
-      int totalLeapYears ++
+      totalLeapYears ++;
 }
 
-   System.out.print("Total leap years: "");
+   System.out.print("Total leap years: ");
    System.out.println(totalLeapYears);
 
    }
