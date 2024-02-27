@@ -14,6 +14,14 @@
 
 - [Excercises (1 & 2 term)/(arduino)](https://github.com/albertrenart/J25-programming/tree/main/arduino)
 
+
+
+**Important files related to java**
+
+- [Exercices (java)](https://github.com/albertrenart/J25-programming/tree/main/programming%20(java))
+
+- [Java Notes](https://github.com/albertrenart/J25-programming/blob/main/programming%20(java)/APUNTES.md)
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
 
