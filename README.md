@@ -4,8 +4,6 @@
 
 **Important files related to Arduino**
 
-- [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
-
 - [Programming Notes (arduino)](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming.md)
 
 - [Programming Notes (2 term)/(arduino)](https://github.com/albertrenart/J25-programming/blob/main/Notes%20Programming%202nd%20term.md)
@@ -16,11 +14,19 @@
 
 
 
+
 **Important files related to java**
 
 - [Exercices (java)](https://github.com/albertrenart/J25-programming/tree/main/programming%20(java))
 
 - [Java Notes](https://github.com/albertrenart/J25-programming/blob/main/programming%20(java)/APUNTES.md)
+
+
+
+
+**Others**
+
+- [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 **List of classmates:**
