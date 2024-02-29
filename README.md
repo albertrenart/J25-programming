@@ -21,6 +21,8 @@
 
 - [Java Notes](https://github.com/albertrenart/J25-programming/blob/main/programming%20(java)/APUNTES.md)
 
+- [Raw Java Notes (word document converted to PDF)](https://github.com/albertrenart/J25-programming/blob/main/programming%20(java)/APUNTES%20JAVA%20PDF.pdf)
+
 
 
 
