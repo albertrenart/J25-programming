@@ -13,6 +13,7 @@ Java is known for its simplicity, robustness, and security features, making it a
 - Class: A basic building block. 
 - Static: Always in memory.
 - Public: All the code can access it.
+- Object: Bloc of code which includes a name, attributes, and methods.
 - Case sensitive: The program distinguishes lowercase letters from uppercase letters.
 - PC: Personal computer.
 - Interface: Through where a person communicates with a machine.
