@@ -1,5 +1,14 @@
-## JAVA NOTES
+# JAVA NOTES
 
+**INTRODUCTION**
+
+Java was released in 1995. This programming languake is used for desktop apps, webs and mobile devices.
+Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+(Minecraft uses javascript, whcih is almost identical to java)
+‎ 
+
+ ‎  
 **TERMINOLOGY**
 - Class: A basic building block. 
 - Static: Always in memory.
