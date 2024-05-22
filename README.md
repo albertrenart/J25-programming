@@ -26,6 +26,12 @@
 
 
 
+**Notes 3rd term**
+[Programming Notes 3 term](https://github.com/albertrenart/J25-programming/tree/main)
+
+
+
+
 **Others**
 
 - [Explanation of the programs](https://github.com/albertrenart/J25-programming/blob/main/arduino/Arduino.md)
