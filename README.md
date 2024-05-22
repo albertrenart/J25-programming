@@ -27,7 +27,8 @@
 
 
 **Notes 3rd term**
-[Programming Notes 3 term](https://github.com/albertrenart/J25-programming/tree/main)
+
+- [Programming Notes 3 term](https://github.com/albertrenart/J25-programming/tree/main)
 
 
 
