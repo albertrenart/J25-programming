@@ -11,6 +11,11 @@ WE WILL SEE:
 ‎ 
 
 ‎ 
+**OPERATING SYSTEM**
+‎ 
+-	Managing resources (computation, memory, bandwidth)
+
+‎ 
 
 **VON NEUMANN ARCHITECTURE:**
   
@@ -252,6 +257,275 @@ each clock cycle.
 
   
 
+‎ 
+‎ 
+‎ 
+## ‎NUMERIC SYSTEMS
+
+
+
+To specify the base of a number, we add a subscript:
+
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/589c459f-45cc-4ce9-8d11-1038865ec48d)
+
+‎ 
+
+**BINARY**
+‎ 
+‎ 
+
+Definition: The binary system is a numeric system in which all numbers are represented using a base of two numbers: zero and one. In other words, it is a base 2 numeric system, while the system we most commonly use is base 10.
+‎ 
+
+Example:
+‎ 
+‎ 
+0 --> 0
+
+1 --> 01
+
+2 --> 10
+
+3 --> 11
+
+4 --> 100
+
+5 --> 101
+
+6 --> 110
+
+7 --> 111
+
+8 --> 1000
+
+9 --> 1001
+
+10 --> 1010
+
+11 --> 1011
+
+
+‎ 
+
+1 bit --> information core with two possible values (0, 1)
+8 bits --> 1 byte (28 possible values)
+1KByte --> 1KB --> 1024 bytes = 210 bytes
+
+‎ ‎ 
+
+
+
+*Storage capacity:*
+‎ 
+Bit --> 2 posibilidades
+
+
+1 Byte = 8 bits --> 2^8 posibilidades  hasta 256 elementos diferentes
+
+‎ 
+
+
+¡¡¡¡ DO NOT CONFUSE KB (Kilo Byte) WITH Kb (Kilo bit) !!!
+
+‎ ‎ 
+ 
+**Advantages & disadvantages:**
+‎ 
+- It is easy to make a binary electronic circuit
+  
+- Arithmetic operations are longer but simpler
+  
+- Binary numbers are long --> making them difficult for humans to use
+
+‎ 
+‎ 
+‎ 
+‎ 
+
+To transform a number from decimal to binary:
+
+- Divide by 2 until reaching 0:
+
+‎ 
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/f0b945da-41c0-40a1-a878-b85c2026d395)
+
+‎ 
+
+To transform a number from binary to decimal:
+- Exponent:
+
+‎ 
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/ed09848b-c927-4528-a59e-fe83685e945e)
+
+‎ 
+
+
+
+
+**OCTAL**
+
+
+Definition: The octal system is a numeric system in which all numbers are represented using a base of 8. In other words, it is a base 8 numeric system, while the system we most commonly use is base 10.
+‎ 
+
+
+0 --> 0
+
+1 --> 1
+
+2 --> 2
+
+3 --> 3
+
+4 --> 4
+
+5 --> 5
+
+6 --> 6
+
+7 --> 7 
+
+8 --> 0
+
+9 --> 11
+
+10 --> 12
+
+11 --> 13
+
+‎ 
+
+
+
+
+
+**HEXADECIMAL**
+‎ 
+
+Definition: The hexadecimal system is a numeric system in which all numbers are represented using a base of 16. In other words, it is a base 16 numeric system, while the system we most commonly use is base 10.
+‎ ‎ 
+
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+A (10)
+
+B (11)
+
+C (12)
+
+D (13)
+
+E (14)
+
+F (15)
+
+10 (16)
+
+‎ 
+
+
+‎ To transform a number from decimal to hexadecimal:
+- Divide by 16 until reaching 0:
+
+  ‎
+  ![image](https://github.com/albertrenart/J25-programming/assets/144990839/5cb36ebe-dfe7-4df5-904d-be8d20d17b18)
+
+‎ 
+
+To transform a number from hexadecimal to binary:
+- Convert all digits into binary in groups of four:
+
+‎ 
+
+  ![image](https://github.com/albertrenart/J25-programming/assets/144990839/9cc77292-9809-49d2-9e2f-a098e5659bd6)
+
+‎ 
+
+
+To transform a number from hexadecimal to decimal: 
+- Convert the number to binary (following the procedure mentioned before), and then convert it from binary to decimal (also mentioned before):
+‎ 
+
+  ![image](https://github.com/albertrenart/J25-programming/assets/144990839/5deb72cf-5cf2-4196-9a1c-7932f6cf0a6f)
+‎ 
+
+
+To transform a number from binary to hexadecimal: 
+- Make groups of 4 digits and write its decimal value below:
+‎ ‎ ‎
+
+  ![image](https://github.com/albertrenart/J25-programming/assets/144990839/a24b5449-b213-4357-b8e2-cfacd8a3bce1)
+
+‎ 
+‎ 
+‎ 
+‎ 
+
+## MARKUP LANGUAGES
+
+
+‎ 
+
+**WHAT IS A MARKUP LANGUAGE?**
+‎ 
+
+
+A markup language is a computer laguage which uses tags to mark different parts of a code, to define what it does.
+
+
+The markup itself usually consists of a collection of pre-made codes or tags that are inserted into the document's text. These tags indicate how different elements should be presented (font size, color, alignment, etc.) and describe the document's structure (headings, paragraphs, lists, etc.).
+
+They clasify information.
+
+
+‎ 
+
+**HTML**
+
+‎ 
+
+Stands for: Hyper text markout language
+
+‎ 
+
+HTML is a marking language designed to structure texts and relate them in hypertext form. It is used to create, mainly, webpages.
+
+‎ 
+
+An example of my first webpage I did:
+
+‎ 
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/214426f2-fe04-4dea-854b-3f175640f5aa)
+
+
+‎ 
+
+The [code](https://github.com/albertrenart/J25-programming/blob/main/3rd%20TERM/Tags%20HTML.html) behind:
+
+‎ 
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/a9219a8a-7f0e-4926-8484-bf9ac093a5a2)
 
 
 
