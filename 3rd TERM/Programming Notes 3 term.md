@@ -3,7 +3,8 @@
 WE WILL SEE:
 - HARDWARE & SOFTWARE
 - NUMERIC SYSTEMS
-- MARKUP LANGUAGES
+- MARKUP LANGUAGES (and webs)
+- NETWORKS
 
 ## HARDWARE & SOFTWARE
 ‎ 
@@ -481,7 +482,7 @@ To transform a number from binary to hexadecimal:
 ‎ 
 ‎ 
 
-## MARKUP LANGUAGES
+## MARKUP LANGUAGES (and webs)
 
 
 ‎ 
@@ -500,15 +501,39 @@ They clasify information.
 
 ‎ 
 
-**HTML**
+**- HTML**
 
-‎ 
 
 Stands for: Hyper text markout language
 
+HTML is a marking language designed to structure texts and relate them in hypertext form. It is used to create, mainly, webpages.
+
 ‎ 
 
-HTML is a marking language designed to structure texts and relate them in hypertext form. It is used to create, mainly, webpages.
+*A basic scheme:*
+
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE> Mi pagina
+			</TITLE>
+		</HEAD>
+		<BODY>
+			Mi primera pagina>
+		</BODY>
+</HTML>
+
+‎ 
+
+*MOST USED TAGS:*
+<br>   -->  enter 
+<b>    -->  bold
+<i>    -->  italic
+<img src>   -->   image
+<p>  -->  parrafo    | inside of <p>: </p> style = “font-size”>
+<u> --> underlined
+<div>  
+
 
 ‎ 
 
@@ -528,27 +553,201 @@ The [code](https://github.com/albertrenart/J25-programming/blob/main/3rd%20TERM/
 ![image](https://github.com/albertrenart/J25-programming/assets/144990839/a9219a8a-7f0e-4926-8484-bf9ac093a5a2)
 
 
+‎ 
+‎ 
 
 
 
+### STATIC AND DYNAMIC WEBS
+
+‎ 
+
+**STATIC:**
+
+- Static web pages are what you see is what you get.
+- Made using HTML, CSS, JavaScript.
+- They almost always stay the same.
+
+‎ 
+
+*Advantages & disadvantages:*
+
+- Fast loading speeds.
+- Simple to maintain.
+- Not Super Interactive.
+
+  ‎ 
+
+*EXAMPLES:*
+
+- [Space Jam Web](https://www.spacejam.com/1996/jam.htm)
+- [David Prieto Web](https://fabacademy.org/2020/labs/barcelona/students/david-prieto/)
+
+‎ 
+
+![static](https://github.com/albertrenart/J25-programming/assets/144990839/da2b7d6f-608c-4eb2-843d-926b3c3f5fb4)
+
+‎ 
+
+
+**DYNAMIC:**
+
+- Made by the server in real time depending on user actions.
+- They mainly run on PHP, Python, Ruby. 
+
+‎ 
+
+*Advantages & disadvantages:*
+
+- Personalized Content.
+- They can talk to databases to grab or store info.
+- Interactive and Fun.
+- Harder to maintain.
+
+  ‎ 
+
+![what-is-a-dynamic-site-1](https://github.com/albertrenart/J25-programming/assets/144990839/1f034eb8-d446-4506-a55c-9d02d5aee306)
+
+
+‎ 
+‎ 
+
+## NETWORKS
+
+‎ 
+**Architecture:**
+
+ - Client-server
+
+‎ 
+
+
+Client computer --> requests
+
+Server Computer --> responds with an HTML
+
+
+‎ 
+
+
+¡¡¡IMPORTANT!!!
+
+A link (enlace) it's not the same as a URL.
+
+A link is what you click (can be a text, an image, a button...).
+
+The URL is the actual route.
+
+
+‎ 
+
+‎ 
+URL: Uniform Resource Locator.
+
+‎ 
+‎ 
+*Parts of a URL:*
+
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/9c2ce28f-c232-4741-a494-5f42ff1ed4ba)
+
+‎ 
+
+Inside the domain there is an IP (Internet Protocol acces)
+
+
+To transalte domains and IPs, a DNS (domain name server) is needed.
+
+
+‎ 
+
+
+*Internet:*
+
+Physical network of interconnected computers (Hardware)
+
+‎ 
+
+*WWW (World Wide Web):*
+
+Resources (software, data) stored on the internet
+
+
+‎ 
+
+
+Wifi: Server <--> ISP (Internet Service Provider) <--> router <--> acces point <--> maquina
+
+This route goes back and forth.
+
+‎ 
+
+
+Las ISP’s son de la compañía (movistar, Orange…)
 
 
 
+**PROTOCOL:**
+
+Laws in communication -->  https:// (hyper text transfer protocol secured)
+
+‎ 
+‎ 
+
+### IT
+
+‎ 
+
+INFORMATICA Y TELECOMUNICACIONES
+
+‎ 
+‎ 
+**TASKS:**
+
+‎ 
+
+- Project Manager
+  
+- Web Developer:
+    - Front end (what the user sees)
+    - Back end (what the user does not see)
+    - Full stack (both)
+ 
+
+-	Programmer (analyst, revises and designs / like an arquitect) 
+  
+- QA (quality Assurance / revises the program)
+  
+- DBA (data base admin)
+
+‎ 
+
+**ENVIRONMENTS:**
+
+Definition: A Programming Environment is the collection of tools used in the development of software.‎ 
+
+‎ 
+
+
+- Local Environment: Developer's computer.
+
+- INT (integration): Integration of programs with others.
+
+- PRE (pre-production): Staging / testing / QA is here.
+
+- PRO (production): Launch / public
 
 
 
+‎ 
+
+**AND REMEMBER, DO NOT LAUNCH ON PRO ON FRIDAY**
 
 
+Many bugs and problems can occur. If this happens, there are to options (neither of them is a pleasing one):
 
+- Make your workers stay working until late on a friday.
 
-
-
-
-
-
-
-
-
+- Cancel the launch until monday, and ruin all the expectations of your users.
 
 
 
