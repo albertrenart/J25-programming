@@ -75,7 +75,14 @@ SOME TERMINOLOGY:
 
 **INPUTS & OUTPUTS:**
 
-Examples of inputs:
+‎ 
+
+DEFINITION OF OUTPUT: a place where power or information leaves a system.
+‎ 
+DEFINITION OF INPUT: a place where, or a device through which, energy or information enters a system.
+‎ 
+
+*Examples of inputs:*
 - Potentiometer
 - Button
 - Keyboard
@@ -92,14 +99,38 @@ Examples of inputs:
 - Capacitive receiver
 - Gyroscope
 
+‎ 
+
+
+*Examples of output:*
+- Screen
+- Audio (speaker)
+- LEDs
+- Motors:
+- Pump
+- Fan
+- Motor vibrador (vibration in controllers, phones, tablets…)
+
+
+‎ 
+
+*INPUT & OUTPUT IN COMUNICATION:*
+- WiFi (internet)
+- Bluetooth
+- Mobile data (2G, 3G, 4G, 5G)
+- LAN (RJ45)
+- Telephone / Optic Fiber
 
 
 
+‎ 
 
-
-
-
-
+**IMPORTANT ARCHITECTURES:**
+‎ 
+*VON NEUMANN:*
+It uses one type of memory for instructions and data. Most microprocessors of laptops use this kind of architecture.
+‎ 
+![image](https://github.com/albertrenart/J25-programming/assets/144990839/f03b77d2-fb7b-4891-827a-3d1b44c73db1)
 
 
 
