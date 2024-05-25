@@ -130,6 +130,7 @@ DEFINITION OF INPUT: a place where, or a device through which, energy or informa
 *VON NEUMANN:*
 It uses one type of memory for instructions and data. Most microprocessors of laptops use this kind of architecture.
 ‎ 
+‎ 
 ![image](https://github.com/albertrenart/J25-programming/assets/144990839/f03b77d2-fb7b-4891-827a-3d1b44c73db1)
 
 
